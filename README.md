@@ -1,3 +1,28 @@
+# Chimera
+
+## Architect
+
+![components](https://raw.githubusercontent.com/liminaab/chimera/main/nocode/system-Components.png)
+
+| Components | Description |
+|--|--|
+| Slack App Bot <-> Slack Server| Chimera communicate with client through Slack bot chat. It's handled by Slack Client and Slack Server system |
+| Slack Server <-> AWS Lambda | Slack server's set the event to call to AWS Lambda (through AWS gateway) to trigger event everytime slack chat bot receive any command/chat |
+| AWS Lambda <-> AWS EKS | AWS Lambda connect and control AWS EKS/k8s through AWS API and K8s API |
+
+## Infrastructure setup
+
+### Slack
+
+### AWS
+
+### Build application
+
+### Deploy
+
+## Environments
+
+--- 
 
 ## Development
 
